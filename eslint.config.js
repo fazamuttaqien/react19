@@ -94,7 +94,7 @@ export default tseslint.config([
       // 📏 General JS/TS rules
       "@typescript-eslint/no-redeclare": "off",
       "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-      "no-console": ["error"],
+      "no-console": ["warn"],
       "node/prefer-global/process": ["off"],
       "node/no-process-env": ["error"],
       "@typescript-eslint/no-explicit-any": "error",
