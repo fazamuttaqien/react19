@@ -14,7 +14,7 @@ import sonarjs from "eslint-plugin-sonarjs"
 import promise from "eslint-plugin-promise"
 import node from "eslint-plugin-node"
 import unicorn from "eslint-plugin-unicorn"
-import perfectionist from "eslint-plugin-perfectionist"
+// import perfectionist from "eslint-plugin-perfectionist"
 
 export default tseslint.config([
   globalIgnores(["dist"]),
@@ -42,7 +42,7 @@ export default tseslint.config([
       promise: promise,
       node: node,
       unicorn: unicorn,
-      perfectionist: perfectionist,
+      // perfectionist: perfectionist,
     },
     rules: {
       "react-refresh/only-export-components": [
@@ -108,7 +108,7 @@ export default tseslint.config([
       ],
 
       // ↕️ Sort imports for readability
-      "perfectionist/sort-imports": ["error", { tsconfigRootDir: "." }],
+      // "perfectionist/sort-imports": ["error", { tsconfigRootDir: "." }],
 
       // 📁 Enforce consistent file naming
       "unicorn/filename-case": [

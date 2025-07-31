@@ -1,7 +1,7 @@
 import { type FC } from "react"
 
 const App: FC = () => {
-  return <h1>Hello World</h1>
+  return <div>Hello World</div>
 }
 
 export default App
